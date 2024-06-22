@@ -8,12 +8,12 @@ const Header: React.FC = () => {
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/" className="hover:text-blue-300">
+            <Link href="/" className="hover:text-blue-300 font-display">
             Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-blue-300">
+            <Link href="/about" className="hover:text-blue-300 font-display">
             About
             </Link>
           </li>

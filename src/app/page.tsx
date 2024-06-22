@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 export default function Home() {
   return (
-    <div>
+    <div className = "bg-blue-100">
       <Head>
         <title>My Landing Page</title>
         <meta name="description" content="Welcome to my landing page" />
