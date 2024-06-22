@@ -16,7 +16,7 @@ const About: React.FC = () => {
       <Header /> {/* Use the Header component */}
 
       <main className="flex-grow container mx-auto p-4 md:p-8">
-        <h1 className="text-4xl font-bold font-body text-center mb-4 text-primary-100">About Me</h1>
+        <h1 className="text-4xl font-bold font-title text-center mb-4 text-primary-900">About Me</h1>
         <Image 
           src="/me.jpg"
           alt="Picture of Danny"
@@ -26,10 +26,10 @@ const About: React.FC = () => {
           // layout="responsive"
     
         />
-        <p className="font-body text-lg text-center text-black text-primary-100">I am Danny Lucas, a tutor and software engineer.  I am learning data science and applying to masters programs right now.  I am based in Greenpoint, Brooklyn and I live with my beautiful girlfriend Jamie, she is currently heating up some chicken nuggets for me!</p>
+        <p className="font-body text-lg text-center text-primary-900">I am Danny Lucas, a tutor and software engineer.  I am learning data science and applying to masters programs right now.  I am based in Greenpoint, Brooklyn and I live with my beautiful girlfriend Jamie, she is currently heating up some chicken nuggets for me!</p>
       </main>
 
-      <footer className="bg-gray-800 bg-opacity-80 p-4 text-white text-center">
+      <footer className="bg-gray-800 bg-opacity-80 p-4 text-primary-800 text-center">
         <p>© 2024 My Website</p>
       </footer>
     </div>

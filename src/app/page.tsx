@@ -12,12 +12,12 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <h1>Welcome to My Landing Page</h1>
-        <p>This is a basic landing page for my Next.js application.</p>
+        <h1 className="text-primary-900 text-3xl text-center font-display">Welcome to Danny's blog!</h1>
+        <p className="text-primary-800 font-body">This is where my blog posts will be.</p>
       </main>
 
       <footer>
-        <p>© 2022 My Website</p>
+        <p className="text-primary-600 font-body text-bottom">© 2024 My Website</p>
       </footer>
     </div>
   );

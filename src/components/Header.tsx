@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-500 p-4 text-white">
+    <header className="bg-blue-500 p-4 text-primary-900">
       <nav>
         <ul className="flex space-x-4">
           <li>
