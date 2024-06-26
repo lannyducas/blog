@@ -4,10 +4,6 @@ import "./styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Danny's Blog",
-  description: "A blog by Danny",
-};
 
 export default function RootLayout({
   children,
@@ -20,3 +16,11 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  title: 'Danny Lucas\'s Blog',
+  description: 'Documenting my projects and what I learn about data science and computer science.',
+  icons:{
+    icon: '/icon.ico',
+  },
+};
