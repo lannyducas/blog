@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className="flex-grow">
-        <h1 className="text-primary-900 text-3xl text-center font-display">Welcome to Danny's blog!</h1>
+        <h1 className="text-primary-900 text-3xl text-center font-display">Welcome to Danny&#39;s blog!</h1>
         <p className="text-primary-800 font-body">This is where my blog posts will be.</p>
       </main>
 
