@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-// import profilePic from '../../public/me.jpg';
 import Head from 'next/head';
-import Header from '../../components/Header'; // Import the Header component
+import Header from '@/components/Header'; // Import the Header component
 
 const About: React.FC = () => {
   return (
@@ -13,10 +12,10 @@ const About: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header /> {/* Use the Header component */}
+      <Header />
 
-      <main className="flex-grow container mx-auto p-4 md:p-8">
-        <h1 className="text-4xl font-bold font-title text-center mb-4 text-primary-900">About Me</h1>
+      <main className="flex-grow">
+        <h1 className="text-primary-900 text-3xl text-center font-display">About Me</h1>
         <Image 
           src="/me.jpg"
           alt="Picture of Danny"

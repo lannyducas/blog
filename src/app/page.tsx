@@ -8,7 +8,7 @@ import BlogPost from '../components/BlogPost';
       <Header />
       <main className="flex-grow">
         <h1 className="text-primary-900 text-3xl text-center font-display">Welcome to Danny&#39;s blog!</h1>
-        <p className="text-primary-800 font-body">This is where my blog posts will be.</p>
+        <p className="text-primary-800 font-body text-center">This is where my blog posts will be.</p>
         <BlogPost 
           title="Test Post"
           date="6/26/2024"
