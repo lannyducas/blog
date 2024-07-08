@@ -22,7 +22,8 @@ const BlogPosts: React.FC = () => {
             <Header />
             <h1 className="text-primary-900 text-3xl text-center font-display">Blog Posts</h1>
             {posts.map((post, index) => (
-               <BlogPostComponent key={index} title={post.title} date={post.date} author={post.author} content={post.content}/>
+            //    <BlogPostComponent key={index} title={post.title} date={post.date} author={post.author} content={post.content}/>
+            <BlogPostComponent key={index} title={post.title} date={post.date} author={post.author} content={post.content}/>
             ))}
         </div>
     );

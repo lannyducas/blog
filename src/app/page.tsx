@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import BlogPost from '../components/BlogPost';
+import PostPreview from "./posts/page"
 
   export default function Home() {
   return (
